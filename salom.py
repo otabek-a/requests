@@ -5,7 +5,7 @@ import json
 m=[]
 p=0
 f=[]
-while p<=20:
+while p<=5:
    r = requests.get ( 'https://randomuser.me/api/')
    data=r.json()
    for i in data['results']:
